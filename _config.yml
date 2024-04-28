@@ -12,7 +12,7 @@ cv_path: "/assets/Sharvari_Deshmukh_SP24_Resume.pdf"
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
-
+# this is default
 defaults:
   -
     scope:
