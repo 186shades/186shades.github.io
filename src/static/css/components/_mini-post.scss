@@ -7,6 +7,8 @@
 /* Mini Post */
 .cell-container {
   position: relative;
+  width: 50%;
+  padding: 10px 10px 10px 10px;
 
   .description {
     position: absolute;
@@ -38,6 +40,15 @@
       bottom: inherit;
     }
   }
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1em;
 }
 
 .mini-post {
