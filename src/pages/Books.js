@@ -68,6 +68,7 @@ const Books = () => (
           <h2><Link to="/books">Bookshelf</Link></h2>
         </div>
       </header>
+      {/* eslint-disable-next-line react/no-danger */}
       <span dangerouslySetInnerHTML={{ __html: goodreadshtml }} />
       <div />
     </article>
