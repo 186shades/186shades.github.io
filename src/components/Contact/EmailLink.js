@@ -9,10 +9,10 @@ const validateText = (text) => {
   return re.test(text) || text.length === 0;
 };
 
-const messages = [
-  'sharvarisd18@gmail.com',
-  'shdeshmukh@ucsd.edu',
-];
+// const messages = [
+//   'sharvarisd18@gmail.com',
+//   'shdeshmukh@ucsd.edu',
+// ];
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
@@ -32,7 +32,7 @@ const useInterval = (callback, delay) => {
   }, [delay]);
 };
 
-const EmailLink = ({ loopMessage }) => {
+const EmailLink = ({ messages, loopMessage }) => {
   const hold = 50; // ticks to wait after message is complete before rendering next message
   const delay = 50; // tick length in mS
 
@@ -65,11 +65,11 @@ const EmailLink = ({ loopMessage }) => {
   return (
     <div
       className="inline-container"
-      style={validateText(message) ? {} : { color: 'red' }}
+      style={validateText(message) ? {} : { color: 'white' }}
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}` : ''}>
+      <a href={`mailto:${message}`}>
         <span>{message}</span>
       </a>
     </div>
@@ -78,10 +78,12 @@ const EmailLink = ({ loopMessage }) => {
 
 EmailLink.defaultProps = {
   loopMessage: false,
+  messages: [],
 };
 
 EmailLink.propTypes = {
   loopMessage: PropTypes.bool,
+  messages: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default EmailLink;

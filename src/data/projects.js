@@ -1,19 +1,36 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Dust-Fragment classification @ UCSD ARCLab',
+    title: 'Diffusion-Based Image Restoration: A Zero-Shot Approach',
     subtitle: '',
     image: '/images/projects/DDNM.png',
-    link: 'https://www.ucsdarclab.com/surgical-automation',
-    date: '2024-04-1',
-    desc: 'Computer Vision | Video Segmentation | Object Detection | Deep Learning',
+    link: 'https://github.com/186shades/ECE285-Final-Project',
+    date: '2024-06-1',
+    desc: 'A zero-shot image inpainting technique based on the Denoising Diffusion Null-Space Model (DDNM+) for image reconstruction on occluded surgical images',
+  },
+  {
+    title: 'Dust-Fragment classification @ UCSD ARCLab [In-Progress]',
+    subtitle: '',
+    image: '/images/projects/SRIP.jpg',
+    link: 'https://ucsdarclab.com/',
+    date: '2024-06-1',
+    desc: 'Integrating segmentation models with optical flow for enhanced moving object detection and classification in ureteroscopy videos',
+  },
+  {
+    title: 'Multimodal State Classification for Industrial Device',
+    subtitle: '',
+    image: '/images/projects/Mudestra.png',
+    link: 'https://github.com/186shades/ECE228-Final-Project',
+    date: '2024-06-1',
+    desc: 'Multimodal deep learning model leveraging image and time-series data from milling blade to accurately classify it\'s state',
   },
   {
     title: 'Histopathology image classification for cancer diagnosis',
     subtitle: '',
     image: '/images/projects/Histopathology.png',
-    date: '2024-02-1',
-    desc: 'Computer Vision | Image Classification | Deep Learning | Transfer Learning | Transformers',
+    link: 'https://github.com/186shades/ECE271BProject',
+    date: '2024-03-1',
+    desc: 'Comparative analysis between CNNs & Vision Transformers Fine-tuned using transfer learning & data augmentation for skin cancer detection',
   },
 ];
 
