@@ -32,6 +32,22 @@ const data = [
     date: '2024-03-1',
     desc: 'Comparative analysis between CNNs & Vision Transformers Fine-tuned using transfer learning & data augmentation for skin cancer detection',
   },
+  {
+    title: 'Data Analysis for Solar Radiation and Grid Simulation',
+    subtitle: '',
+    image: '/images/projects/California.gif',
+    link: 'https://github.com/186shades/ECE143-Team13',
+    date: '2024-03-1',
+    desc: 'Analysis of solar supply and energy demand data in USA with focus on grid simulations to assess supply-demand gap in California',
+  },
+  {
+    title: 'Student Engagement Analytics Platform for Campus Health Services',
+    subtitle: '',
+    image: '/images/projects/SHS.png',
+    link: 'https://github.com/186shades/ucsd-shs-viz-tool',
+    date: '2024-03-1',
+    desc: 'A web-based tracking and visualization application for Student Health Services at UCSD for better assessment of student engagement',
+  },
 ];
 
 export default data;
