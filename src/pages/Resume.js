@@ -1,23 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFilePdf } from '@fortawesome/free-regular-svg-icons/faFilePdf';
 
 import Main from '../layouts/Main';
-
-import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import Courses from '../components/Resume/Courses';
 
+import { skills } from '../data/resume/skills';
 import courses from '../data/resume/courses';
-import degrees from '../data/resume/degrees';
-import work from '../data/resume/work';
+import lifeEvents from '../data/resume/work';
+import SimpleSkills from '../components/Resume/SimpleSkills';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
-  Education: () => <Education data={degrees} />,
-  Experience: () => <Experience data={work} />,
+  // Education: () => <Education data={degrees} />,
+  Experience: () => <Experience data={lifeEvents} />,
   // Skills: () => <Skills skills={skills} categories={categories} />,
+  Skills: () => <SimpleSkills data={skills} />,
   Courses: () => <Courses data={courses} />,
 };
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const Resume = () => (
   <Main
@@ -27,7 +30,13 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
+          <div className="resumeHeading">
+            <h2><Link to="resume">Resume</Link></h2>
+            {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
+            <a href={`${PUBLIC_URL}/documents/resume.pdf`} download="Sharvari_Resume.pdf">
+              <FontAwesomeIcon size="xl" icon={faFilePdf} />
+            </a>
+          </div>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>

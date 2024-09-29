@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Job from './Experience/Job';
+import { Timeline } from '@mui/lab';
+import {
+  timelineOppositeContentClasses,
+} from '@mui/lab/TimelineOppositeContent';
+import JobCard from './TimeCard';
 
 const Experience = ({ data }) => (
   <div className="experience">
@@ -9,24 +13,34 @@ const Experience = ({ data }) => (
     <div className="title">
       <h3>Experience</h3>
     </div>
-    {data.map((job) => (
-      <Job
-        data={job}
-        key={`${job.name}-${job.position}`}
-      />
-    ))}
+    <div className="jobTimeline">
+      <Timeline
+        position="right"
+        sx={{
+          [`& .${timelineOppositeContentClasses.root}`]: {
+            flex: 0.2,
+          },
+        }}
+      >
+        {data.map((event) => (
+          <JobCard
+            date={event.date}
+            title={event.title}
+            description={event.description}
+            url={event.url}
+          />
+        ))}
+      </Timeline>
+    </div>
   </div>
 );
 
 Experience.propTypes = {
   data: PropTypes.arrayOf(PropTypes.exact({
-    name: PropTypes.string,
-    position: PropTypes.string,
+    date: PropTypes.string,
+    title: PropTypes.string,
+    description: PropTypes.string,
     url: PropTypes.string,
-    startDate: PropTypes.string,
-    endDate: PropTypes.string,
-    highlights: PropTypes.arrayOf(PropTypes.string),
-    summary: PropTypes.string,
   })),
 };
 
