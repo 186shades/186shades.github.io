@@ -27,7 +27,7 @@ const lifeEvents = [
   },
   {
     date: 'Sept 2023',
-    title: 'M.S. in Electrical and Computer Engineering (Signal & Image Processing) @ UC San Diego',
+    title: 'Started M.S. in ECE (Signal & Image Processing) @ UC San Diego',
     description: '',
     url: 'https://www.ece.ucsd.edu/faculty-research/ece-research-areas/signal-image-processing',
   },
@@ -64,8 +64,8 @@ const lifeEvents = [
   {
     date: 'Jan 2017',
     title: 'Firmware Intern @ Intel, Bangalore',
-    description: 'https://www.intel.in/content/www/in/en/homepage.html',
-    url: '',
+    description: '',
+    url: 'https://www.intel.in/content/www/in/en/homepage.html',
   },
   {
     date: 'Dec 2015',
@@ -81,7 +81,7 @@ const lifeEvents = [
   },
   {
     date: 'Aug 2013',
-    title: 'B.E in Eletronics and Instrumentation Engineering @ BITS Pilani',
+    title: 'Started B.E (Eletronics & Instrumentation Engineering) @ BITS Pilani',
     description: '',
     url: 'https://www.bits-pilani.ac.in/academics/integrated-first-degree/be-electronics-and-instrumentation/',
   },
