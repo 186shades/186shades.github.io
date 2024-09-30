@@ -23,9 +23,7 @@ const SimpleSkills = ({ data }) => (
 
 const Skill = ({ data, last }) => (
   <li className="course-container">
-    <a href={data.link}>
-      <p className="course-name">{data.title}</p>
-    </a>
+    <p className="course-name">{data.title}</p>
     {!last && <div className="course-dot"><p className="course-name"> &#8226;</p></div>}
   </li>
 );

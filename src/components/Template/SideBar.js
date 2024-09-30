@@ -20,17 +20,6 @@ const SideBar = () => (
       </header>
       <ContactIcons />
     </section>
-
-    <section className="blurb">
-      <h2>About</h2>
-      <p>
-        An adept software engineer skilled at architecting scalable systems &
-        developing intelligent ML models. Experienced in optimizing fintech
-        platforms & streamlining low-latency applications. Driven to implement
-        impactful AI-driven technology through creative problem-solving.
-      </p>
-    </section>
-
   </section>
 );
 

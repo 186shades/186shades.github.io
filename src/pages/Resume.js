@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons/faFilePdf';
 
@@ -31,7 +30,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <div className="resumeHeading">
-            <h2><Link to="resume">Resume</Link></h2>
+            <h2>Resume</h2>
             {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
             <a href={`${PUBLIC_URL}/documents/resume.pdf`} download="Sharvari_Resume.pdf">
               <FontAwesomeIcon size="xl" icon={faFilePdf} />
