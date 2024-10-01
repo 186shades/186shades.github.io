@@ -30,17 +30,16 @@ const Index = () => (
         projects in my undergrads at BITS Pilani to backend software solutions
         at top finTech companies to my current fascination with medical
         imaging has been one hell of a rollercoaster ride. I like to go
-        breadth-first, you can say. Now that I&apos;m closer than I&apos;ve ever been
-        to finding my niche , I&apos;m heading down the rabbit
-        hole of wavelets and diffusion models and optical flow and
-        anything that lets a machine see what I can and can&apos;t see.
+        breadth-first, you can say. Now that I&apos;m zeroing in on my niche,
+        I&apos;m heading down the rabbit hole of wavelets, diffusion models,
+        optical flow and everything that lets a machine see what we can and can&apos;t see.
       </p>
       <p>
         I&apos;m a part-time artist and that fuels this passion for the
         visual medium. Or is it the other way around? Huh! I prefer acrylics
         when I&apos;m in a hurry and watercolors when I&apos;m emotional.
         I do origami when I get the itch to do something with my hands but
-        don&apos;t want to clean up the mess and play Badminton when my legs
+        don&apos;t want to clean up the mess and play badminton when my legs
         are restless too. I love my movies animated and my books riddled with
         mystery. And I love science fiction, in all mediums.
       </p>
