@@ -14,63 +14,44 @@ const Index = () => (
         </div>
       </header>
       <p>
-        A software engineer skilled at architecting scalable systems &
-        developing intelligent ML models. Experienced in optimizing fintech
-        platforms & streamlining low-latency applications. Driven to implement
-        impactful AI-driven technology through creative problem-solving.
+        Hi there!
       </p>
 
-      {/* <p>
-        My strong academic background, including a Master&apos;s degree in
-        Electrical & Computer Engineering from UC San Diego and a
-        Bachelor&apos;s degree in Electronics & Instrumentation from BITS
-        Pilani, has equipped me with a comprehensive understanding of
-        key areas such as Statistical Learning, Digital Image Processing,
-        and Machine Learning. Throughout my career, I have consistently
-        sought opportunities to leverage technology for real-world impact.
+      <p>
+        I&apos;m Sharvari. I&apos;m a Master&apos;s student at UCSD
+        studying ECE(Signal & Image processing),
+        well, mostly a lot of cool computer vision techniques and
+        ML algorithms.
+      </p>
+
+      <p>
+        In the last 10 years, I&apos;ve managed to dabble in everything
+        I can get my hands on. Starting from multiple hands-on electronics
+        projects in my undergrads at BITS Pilani to backend software solutions
+        at top finTech companies to my current fascination with medical
+        imaging has been one hell of a rollercoaster ride. I like to go
+        breadth-first, you can say. Now that I&apos;m closer than I&apos;ve ever been
+        to finding my niche , I&apos;m heading down the rabbit
+        hole of wavelets and diffusion models and optical flow and
+        anything that lets a machine see what I can and can&apos;t see.
       </p>
       <p>
-        At Grab, I played a pivotal role in designing and
-        implementing an Instant KYC pipeline for Singapore NRIC card
-        users, reducing onboarding time from 3 days to less than 2 minutes.
-        Additionally, I engineered a modular workflow engine for seamless
-        integration with Indonesian credit bureaus and telco providers
-        for the Loan Origination System. Recognizing the importance
-        of automation, I architected a sophisticated scheduler library
-        in Golang, empowering event-driven automation across multiple
-        compliance use cases. At PaytmMoney, I developed numerous
-        distributed and scalable features within their core payments
-        service, effectively managing 50,000 transactions per day across
-        diverse financial products, including Mutual Funds, Equities,
-        NPS, & EdTech. I also improved the fault-tolerance of critical
-        systems by introducing the circuit breaker pattern via Hystrix,
-        helping reach 99.9% system availability. Additionally, I
-        upgraded the Mutual Funds end-to-end payment flow, reducing API
-        latencies by 10x with DB query enhancements.
+        I&apos;m a part-time artist and that fuels this passion for the
+        visual medium. Or is it the other way around? Huh! I prefer acrylics
+        when I&apos;m in a hurry and watercolors when I&apos;m emotional.
+        I do origami when I get the itch to do something with my hands but
+        don&apos;t want to clean up the mess and play Badminton when my legs
+        are restless too. I love my movies animated and my books riddled with
+        mystery. And I love science fiction, in all mediums.
       </p>
       <p>
-        At Citibank, I built low latency Java applications using the
-        (openHFT) Chronicle based framework, achieving microsecond
-        latency for in-house HFT applications connecting HKFE. I also
-        developed a dynamic PDF generator application leveraging Spring
-        Boot & Microservices architecture to automate client onboarding
-        processes. Further, I improved the development process by introducing
-        Agile & CI-CD practices. Beyond my professional endeavors, I actively
-        engage in projects that showcase my passion for innovation. In my
-        project on Dust-Fragment classification at the UCSD ARC Lab, I am
-        investigating recent representation learning algorithms to extract
-        relevant features from ureteroscopy videos, with the aim of automating
-        laser settings for lithotripsy procedures based on spatiotemporal
-        detection of kidney stone fragments and dust. I also explored
-        Histopathology image classification for cancer diagnosis, where I conducted
-        a comparative analysis between CNNs and Vision Transformers,
-        achieving 99% accuracy. In my project on EEG-Based Sleep Analysis,
-        I designed elliptic filters for EEG signal processing, enabling the
-        detection of sleep stages based on distinct brainwave frequency
-        bands. My multifaceted skill set, combined with my passion for
-        leveraging technology for positive change, establishes me as a
-        driven software engineer.
-      </p> */}
+        If any of this spiked an impulse response in your system,
+        don&apos;t hesitate to reach out! I&apos;m always up for
+        collaborations and a cup of coffee!
+      </p>
+      <p>
+        Thank you for visiting :)
+      </p>
     </article>
   </Main>
 );
