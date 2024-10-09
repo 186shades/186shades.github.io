@@ -127,15 +127,6 @@
 	// display: none;
 }
 
-@include breakpoint(small) {
-	.course-dot {
-		display: none;
-	}
-	.course-container a{
-		display: block;
-	}
-}
-
 .eventTitle {
 	font-size: 0.9em;
 	font-family: _font(family-heading);

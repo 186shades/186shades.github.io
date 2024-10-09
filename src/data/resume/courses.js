@@ -25,7 +25,7 @@ const courses = [
     university: 'UC San Diego',
   },
   {
-    title: 'Introduction ot Visual Learning',
+    title: 'Introduction to Visual Learning',
     number: 'ECE 285',
     link: 'https://catalog.ucsd.edu/courses/ECE.html?#ece285',
     university: 'UC San Diego',
