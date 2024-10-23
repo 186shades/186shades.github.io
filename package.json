@@ -18,6 +18,10 @@
     "start": "react-scripts start",
     "test": "npx jest"
   },
+  "reactSnap": {
+    "skipThirdPartyRequests": true,
+    "preconnectThirdParty": false
+  },
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
