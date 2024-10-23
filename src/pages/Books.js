@@ -61,6 +61,7 @@ const Books = () => (
   <Main
     title="Books"
     description="Reading list"
+    fullPage
   >
     <article className="post" id="contact">
       <header>

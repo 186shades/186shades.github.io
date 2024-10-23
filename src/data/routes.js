@@ -13,6 +13,10 @@ const routes = [
     path: '/resume',
   },
   {
+    label: 'Gallery',
+    path: '/gallery',
+  },
+  {
     label: 'Bookshelf',
     path: '/books',
   },

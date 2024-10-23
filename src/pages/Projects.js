@@ -10,6 +10,7 @@ const Projects = () => (
   <Main
     title="Projects"
     description="Learn about Sharvari's projects."
+    fullPage
   >
     <article className="post" id="projects">
       <header>

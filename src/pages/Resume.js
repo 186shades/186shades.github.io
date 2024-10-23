@@ -25,6 +25,7 @@ const Resume = () => (
   <Main
     title="Resume"
     description="A personal website for Sharvari Deshmukh"
+    fullPage
   >
     <article className="post" id="resume">
       <header>
