@@ -13,7 +13,7 @@ const Paintings = () => (
     <article className="post" id="contact">
       <header>
         <div className="title">
-          <h2><Link to="/painting">Paintings</Link></h2>
+          <h2><Link to="/gallery">Paintings</Link></h2>
         </div>
       </header>
       <div className="paintingContainer">
