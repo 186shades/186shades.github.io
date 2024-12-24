@@ -18,30 +18,28 @@ const Index = () => (
       </p>
 
       <p>
-        I&apos;m Sharvari. I&apos;m a Master&apos;s student at UCSD
+        I&apos;m Sharvari. I&apos;m a Master&apos;s student at UC San Diego
         studying ECE(Signal & Image processing),
         well, mostly a lot of cool computer vision techniques and
         ML algorithms.
       </p>
 
       <p>
-        In the last 10 years, I&apos;ve managed to dabble in everything
-        I can get my hands on. Starting from multiple hands-on electronics
-        projects in my undergrads at BITS Pilani to backend software solutions
-        at top finTech companies to my current fascination with medical
-        imaging has been one hell of a rollercoaster ride. I like to go
-        breadth-first, you can say. Now that I&apos;m zeroing in on my niche,
+        Over the last decade, I&apos;ve tried my hand at just about everything.
+        From hands-on electronics projects during my undergrad at BITS Pilani,
+        to backend software solutions at top fintech companies, and now a keen
+        interest in medical imaging, it&apos;s been a wild journey. I like to go
+        breadth-first, you can say. Now that I&apos;m zeroing in on a niche,
         I&apos;m heading down the rabbit hole of wavelets, diffusion models,
-        optical flow and everything that lets a machine see what we can and can&apos;t see.
+        optical flow & everything that lets a machine see what we can-or can&apos;t-see.
       </p>
       <p>
-        I&apos;m a part-time artist and that fuels this passion for the
-        visual medium. Or is it the other way around? Huh! I prefer acrylics
-        when I&apos;m in a hurry and watercolors when I&apos;m emotional.
-        I do origami when I get the itch to do something with my hands but
-        don&apos;t want to clean up the mess and play badminton when my legs
-        are restless too. I love my movies animated and my books riddled with
-        mystery. And I love science fiction, in all mediums.
+        I&apos;m also a part-time artist which fuels the passion for
+        visual medium. Or maybe it&apos;s the other way around! I reach for acrylics when
+        I&apos;m short on time, watercolors when I&apos;m feeling emotional, origami when I need
+        a creative outlet without the mess, and badminton is my go-to cure for restlessness.
+        I love my movies animated and my books riddled with mystery. And I love science
+        fiction, in all mediums.
       </p>
       <p>
         If any of this spiked an impulse response in your system,

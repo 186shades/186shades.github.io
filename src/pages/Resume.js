@@ -37,12 +37,6 @@ const Resume = () => (
               <FontAwesomeIcon color="#ff5353" size="xl" icon={faFilePdf} />
             </a>
           </div>
-          <div className="link-container">
-            {Object.keys(sections).map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
-          </div>
         </div>
       </header>
       {Object.entries(sections).map(([name, Section]) => (

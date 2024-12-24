@@ -2,6 +2,10 @@
 
 #resume {
 
+	h3 {
+		font-size: 1.2em;
+	}
+
 	.link-to {
 		position: relative;
 		top: -4.5em;
@@ -128,7 +132,7 @@
 }
 
 .eventTitle {
-	font-size: 0.9em;
+	font-size: 16px;
 	font-family: _font(family-heading);
 }
 
@@ -141,7 +145,7 @@
 	display: flex;
 
 	h2 {
-		margin-right: 0.5rem;
+		margin: 0 0.5em 0 0;
 	}
 
 	a {
