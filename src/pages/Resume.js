@@ -34,7 +34,7 @@ const Resume = () => (
             <h2>Resume</h2>
             {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
             <a href={`${PUBLIC_URL}/documents/Sharvari_Fall24_ML.pdf`} download="Sharvari_Deshmukh_UCSD_Resume.pdf">
-              <FontAwesomeIcon size="xl" icon={faFilePdf} />
+              <FontAwesomeIcon color="#ff5353" size="xl" icon={faFilePdf} />
             </a>
           </div>
           <div className="link-container">

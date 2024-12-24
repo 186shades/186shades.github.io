@@ -3,13 +3,13 @@ const data = [
     projectName: 'Flamingos',
     behanceLink: 'https://www.behance.net/embed/project/210846599?ilo0=1',
     width: '500px',
-    height: '700px',
+    height: '500px',
   },
   {
     projectName: 'Cranes',
     behanceLink: 'https://www.behance.net/embed/project/210846907?ilo0=1',
     width: '500px',
-    height: '700px',
+    height: '500px',
   },
   {
     projectName: 'Cactus',
