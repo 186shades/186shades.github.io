@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
@@ -66,7 +65,7 @@ const Books = () => (
     <article className="post" id="contact">
       <header>
         <div className="title">
-          <h2><Link to="/books">Bookshelf</Link></h2>
+          <h2>Bookshelf</h2>
         </div>
       </header>
       {/* eslint-disable-next-line react/no-danger */}

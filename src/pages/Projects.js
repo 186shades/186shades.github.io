@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
@@ -15,7 +14,7 @@ const Projects = () => (
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2><Link to="/projects">Recent Projects</Link></h2>
+          <h2>Recent Projects</h2>
         </div>
       </header>
       <div className="projectContainer">

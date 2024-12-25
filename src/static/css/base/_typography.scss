@@ -56,6 +56,11 @@
 			&:before {
 				color: _palette(accent) !important;
 			}
+
+			.resume-icon {
+				color: _palette(accent) !important;
+				@include vendor('transition', 'color #{_duration(transition)} ease');
+			}
 		}
 	}
 

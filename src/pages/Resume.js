@@ -31,10 +31,14 @@ const Resume = () => (
       <header>
         <div className="title">
           <div className="resumeHeading">
-            <h2>Resume</h2>
+            <h2>
+              <a href={`${PUBLIC_URL}/documents/Sharvari_Fall24_ML.pdf`} download="Sharvari_Deshmukh_UCSD_Resume.pdf">
+                Resume
+              </a>
+            </h2>
             {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
             <a href={`${PUBLIC_URL}/documents/Sharvari_Fall24_ML.pdf`} download="Sharvari_Deshmukh_UCSD_Resume.pdf">
-              <FontAwesomeIcon color="#ff5353" size="xl" icon={faFilePdf} />
+              <FontAwesomeIcon className="resume-icon" color="#ff5353" size="xl" icon={faFilePdf} />
             </a>
           </div>
         </div>
