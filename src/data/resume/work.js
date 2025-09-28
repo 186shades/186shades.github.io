@@ -14,6 +14,18 @@
 
 const lifeEvents = [
   {
+    date: 'Apr 2024',
+    title: 'Software Engineer @ Amazon Robotics, Boston',
+    description: '',
+    url: 'https://www.aboutamazon.com/news/tag/robotics',
+  },
+  {
+    date: 'Mar 2024',
+    title: 'Graduated from UC San Diego',
+    description: '',
+    url: 'https://www.ece.ucsd.edu/faculty-research/ece-research-areas/signal-image-processing',
+  },
+  {
     date: 'Jun 2024',
     title: 'Software Engineer Intern @ Marqeta, Oakland',
     description: '',

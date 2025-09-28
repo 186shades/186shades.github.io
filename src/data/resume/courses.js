@@ -62,9 +62,9 @@ const courses = [
     university: 'UC San Diego',
   },
   {
-    title: 'Computer Vision',
-    number: 'CSE 252A',
-    link: 'https://cseweb.ucsd.edu/classes/fa23/cse252A-a/',
+    title: 'Deep Learning & Applications',
+    number: 'ECE 176',
+    link: 'https://catalog.ucsd.edu/courses/ECE.html?#ece176',
     university: 'UC San Diego',
   },
 ];
