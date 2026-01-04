@@ -13,7 +13,7 @@
 		margin: 0 auto;
 		max-width: 100%;
 		opacity: 1;
-		padding: (_size(section-spacing) * 1.5);
+		padding: (_size(section-spacing) * 0.5) (_size(section-spacing) * 0.3);
 		width: 90em;
 
 		body.is-menu-visible & {
@@ -21,15 +21,16 @@
 		}
 
 		@include breakpoint(xlarge) {
-			padding: _size(section-spacing);
+			padding: (_size(section-spacing) * 0.4) (_size(section-spacing) * 0.25);
 		}
 
 		@include breakpoint(large) {
 			display: block;
+			padding: (_size(section-spacing) * 0.5) (_size(section-spacing) * 0.3);
 		}
 
 		@include breakpoint(small) {
-			padding: _size(section-spacing-small);
+			padding: (_size(section-spacing-small) * 0.7) (_size(section-spacing-small) * 0.5);
 		}
 
 		body.single & {

@@ -7,7 +7,7 @@
 /* Header */
 
 	body {
-		padding-top: 3.5em;
+		padding-top: 2.8em;
 	}
 
 	#header {
@@ -15,9 +15,9 @@
 		@include vendor('justify-content', 'space-between');
 		background-color: _palette(bg);
 		border-bottom: solid 1px _palette(border);
-		height: 3.5em;
+		height: 2.8em;
 		left: 0;
-		line-height: 3.5em;
+		line-height: 2.8em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -42,11 +42,11 @@
 		h1 {
 			height: inherit;
 			line-height: inherit;
-			padding: 0 0 0 1.5em;
+			padding: 0 0 0 1.2em;
 			white-space: nowrap;
 
 			a {
-				font-size: 0.7em;
+				font-size: 0.65em;
 			}
 		}
 
@@ -55,16 +55,16 @@
 			border-left: solid 1px _palette(border);
 			height: inherit;
 			line-height: inherit;
-			margin-left: 1.5em;
+			margin-left: 1.2em;
 			overflow: hidden;
-			padding-left: 1.5em;
+			padding-left: 1.2em;
 
 			ul {
 				li {
 					border-left: solid 1px _palette(border);
 					line-height: 1;
-					margin-left: 1em;
-					padding-left: 1em;
+					margin-left: 0.8em;
+					padding-left: 0.8em;
 
 					&:first-child {
 						border-left: 0;
@@ -75,7 +75,7 @@
 					a {
 						border-bottom: 0;
 						font-family: _font(family-heading);
-						font-size: 0.7em;
+						font-size: 0.65em;
 						font-weight: _font(weight-heading);
 						letter-spacing: _font(kerning-heading);
 						text-transform: uppercase;
@@ -105,7 +105,7 @@
 					    overflow: hidden;
 					    position: relative;
 					    text-indent: 4em;
-							margin-right: 1.5em;
+							margin-right: 1.2em;
 					}
 
 					> * {
@@ -145,11 +145,11 @@
 		}
 
 		@include breakpoint(small) {
-			height: 2.75em;
-			line-height: 2.75em;
+			height: 2.5em;
+			line-height: 2.5em;
 
 			h1 {
-				padding: 0 0 0 1em;
+				padding: 0 0 0 0.8em;
 			}
 
 			.main {

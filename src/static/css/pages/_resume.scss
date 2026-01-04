@@ -3,7 +3,7 @@
 #resume {
 
 	h3 {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
 	.link-to {
@@ -26,15 +26,67 @@
 
 		.title {
 			text-align: center;
-			margin-bottom: 2em;
+			margin-bottom: 1.2em;
 		}
 	}
 	.experience {
 		.title {
 			text-align: center;
+			margin-bottom: 0.8em;
 		}
 		.jobTimeline {
 			color: #fff;
+			margin-left: 15%;
+			max-width: 85%;
+
+			@media (max-width: 1024px) {
+				margin-left: 10%;
+				max-width: 90%;
+			}
+
+			@media (max-width: 768px) {
+				margin-left: 5%;
+				max-width: 95%;
+			}
+
+			// Reduce MUI Timeline spacing
+			.MuiTimeline-root {
+				padding: 0;
+				margin: 0;
+			}
+
+			.MuiTimelineItem-root {
+				min-height: auto;
+				margin-bottom: 0.3em;
+
+				&:before {
+					flex: 0;
+					padding: 0;
+				}
+			}
+
+			.MuiTimelineContent-root {
+				padding: 0.2em 0.6em;
+				font-size: 0.95em;
+			}
+
+			.MuiTimelineOppositeContent-root {
+				padding: 0.2em 0.6em;
+				font-size: 0.9em;
+			}
+
+			.MuiTimelineDot-root {
+				margin: 0.2em 0;
+				padding: 0;
+				width: 6px;
+				height: 6px;
+				box-shadow: none;
+			}
+
+			.MuiTimelineConnector-root {
+				width: 1px;
+				background-color: rgba(160, 160, 160, 0.4);
+			}
 		}
 	}
 
@@ -43,13 +95,32 @@
 			li {
 				margin: 0;
 				padding: 0;
-					font-size: .9em;
+					font-size: 0.85em;
 			}
 		}
 	}
 
+	// Layout for skills and courses side by side
+	.skills-courses-container {
+		display: flex;
+		gap: 2em;
+		margin-top: 1.2em;
+
+		@media (max-width: 768px) {
+			flex-direction: column;
+			gap: 1em;
+		}
+
+		> .skills,
+		> .courses {
+			flex: 1;
+			margin-top: 0;
+			padding-top: 0;
+		}
+	}
+
 	.courses {
-		padding-top: 1.6em;
+		padding-top: 1.2em;
 		.title {
 			text-align: center;
 		}
@@ -63,22 +134,22 @@
 	}
 
 	.skills {
-		margin-top: 2em;
+		margin-top: 1.5em;
 		.title {
 			text-align: center;
 			p {
-				font-size: 0.9em;
+				font-size: 0.85em;
 			}
 		}
 	}
 
 	.summary {
-		margin-bottom: 0.5em;
-		font-size: 0.9em;
+		margin-bottom: 0.4em;
+		font-size: 0.85em;
 	}
 
 	.references {
-		margin: 2em 0;
+		margin: 1.5em 0;
 		.title {
 			text-align: center;
 		}
@@ -86,7 +157,7 @@
 }
 
 .daterange {
-	margin-bottom: .2em;
+	margin-bottom: 0.15em;
 }
 
 .degree-container {
@@ -95,16 +166,16 @@
 	}
 
 	.degree {
-		margin-bottom: .1em;
+		margin-bottom: 0.1em;
 		text-transform: none;
 		letter-spacing: 0.16em;
-		font-size: .8em;
+		font-size: 0.75em;
 	}
 
 	.school {
 		text-transform: none;
-		padding-top: 0.3em;
-		margin-bottom: 1em;
+		padding-top: 0.2em;
+		margin-bottom: 0.8em;
 	}
 }
 
@@ -114,7 +185,7 @@
 .courses .course-name {
 	display: inline;
 	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.7em;
+	font-size: 0.65em;
   font-weight: 400;
   letter-spacing: 0.25em;
   line-height: 2.5;
@@ -128,17 +199,19 @@
 
 .course-dot {
 	display: inline;
-	// display: none;
 }
 
 .eventTitle {
-	font-size: 16px;
+	font-size: 13px;
 	font-family: _font(family-heading);
+	line-height: 1.4;
 }
 
 .eventDescription {
-	font-size: 0.8em;
+	font-size: 12px;
 	font-family: _font(family-heading);
+	line-height: 1.4;
+	margin-top: 0.2em;
 }
 
 .resumeHeading {

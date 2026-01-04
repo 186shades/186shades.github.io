@@ -11,14 +11,6 @@ import courses from '../data/resume/courses';
 import lifeEvents from '../data/resume/work';
 import SimpleSkills from '../components/Resume/SimpleSkills';
 
-// NOTE: sections are displayed in order defined.
-const sections = {
-  // Education: () => <Education data={degrees} />,
-  Experience: () => <Experience data={lifeEvents} />,
-  // Skills: () => <Skills skills={skills} categories={categories} />,
-  Skills: () => <SimpleSkills data={skills} />,
-  Courses: () => <Courses data={courses} />,
-};
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const Resume = () => (
@@ -43,9 +35,11 @@ const Resume = () => (
           </div>
         </div>
       </header>
-      {Object.entries(sections).map(([name, Section]) => (
-        <Section key={name} />
-      ))}
+      <Experience data={lifeEvents} />
+      <div className="skills-courses-container">
+        <SimpleSkills data={skills} />
+        <Courses data={courses} />
+      </div>
     </article>
   </Main>
 );

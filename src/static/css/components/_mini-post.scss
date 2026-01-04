@@ -8,7 +8,7 @@
 .cell-container {
   position: relative;
   width: 33%;
-  padding: 20px 20px 20px 20px;
+  padding: 12px 12px 12px 12px;
 
   .description {
     padding: 0;
@@ -18,9 +18,9 @@
     p {
       margin: 0;
       background-color: _palette(bg-alt);
-      line-height: normal;
-      font-size: 16px;
-      padding: 0.3em 0.3em 0.3em 0.3em;
+      line-height: 1.4;
+      font-size: 13px;
+      padding: 0.4em 0.5em 0.4em 0.5em;
     }
   }
 }
@@ -29,7 +29,7 @@
   .cell-container {
     position: relative;
     width: 100%;
-    padding: 20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px;
   }
 }
 
@@ -39,7 +39,7 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 1em;
+  padding: 0 0.5em;
 }
 
 .projectContainer {
@@ -48,7 +48,7 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 1em;
+  padding: 0 0.5em;
 }
 
 .paintingContainer {
@@ -111,22 +111,23 @@
 
   header {
     z-index: 2;
-    @include padding(1.25em, 1.25em, (0, 3em, 0, 0));
-    min-height: 4em;
+    @include padding(0.9em, 0.9em, (0, 3em, 0, 0));
+    min-height: 3em;
     position: relative;
     @include vendor( 'flex-grow', '1');
 
     h3 {
-      font-size: 16px;
+      font-size: 14px;
+      margin-bottom: 0.3em;
     }
 
     .published {
       display: block;
       font-family: _font(family-heading);
-      font-size: 12px;
+      font-size: 11px;
       font-weight: _font(weight-heading);
       letter-spacing: _font(kerning-heading);
-      margin: -0.625em 0 (_size(element-margin) * 0.85) 0;
+      margin: -0.5em 0 (_size(element-margin) * 0.6) 0;
       text-transform: uppercase;
     }
 

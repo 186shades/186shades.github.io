@@ -1,0 +1,140 @@
+// Blog search bar
+.search-container {
+  margin: 1em 0;
+  width: 100%;
+}
+
+.blog-search {
+  width: 100%;
+  padding: 0.5em 0.8em;
+  font-size: 0.85em;
+  border: 2px solid rgba(160, 160, 160, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  color: inherit;
+  transition: border-color 0.2s ease-in-out;
+
+  &:focus {
+    outline: none;
+    border-color: #f2849e;
+  }
+
+  &::placeholder {
+    color: rgba(160, 160, 160, 0.5);
+  }
+}
+
+// Blog tags
+.tags {
+  margin-top: 0.6em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  font-size: 0.75em;
+  background-color: rgba(160, 160, 160, 0.15);
+  border-radius: 3px;
+  color: #f2849e;
+  font-weight: 600;
+}
+
+// Blog post markdown content
+.markdown-content {
+  margin-top: 1.5em;
+  line-height: 1.6;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+  }
+
+  h2 {
+    border-bottom: 1px solid rgba(160, 160, 160, 0.3);
+    padding-bottom: 0.3em;
+  }
+
+  p {
+    margin-bottom: 0.8em;
+  }
+
+  ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 0.8em;
+  }
+
+  li {
+    margin-bottom: 0.3em;
+  }
+
+  code {
+    background-color: rgba(160, 160, 160, 0.1);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 0.85em;
+  }
+
+  pre {
+    background-color: rgba(160, 160, 160, 0.1);
+    padding: 0.8em;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin-bottom: 0.8em;
+
+    code {
+      background-color: transparent;
+      padding: 0;
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid #f2849e;
+    padding-left: 1em;
+    margin-left: 0;
+    font-style: italic;
+    color: rgba(160, 160, 160, 0.8);
+  }
+
+  a {
+    color: #f2849e;
+    text-decoration: none;
+    border-bottom: 1px dotted #f2849e;
+
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+  }
+
+  hr {
+    border: 0;
+    border-top: 2px solid rgba(160, 160, 160, 0.3);
+    margin: 1.5em 0;
+  }
+
+  em {
+    color: rgba(160, 160, 160, 0.7);
+  }
+}
+
+// Responsive adjustments
+@media screen and (max-width: 736px) {
+  .blog-search {
+    font-size: 0.8em;
+    padding: 0.5em 0.7em;
+  }
+
+  .markdown-content {
+    font-size: 0.9em;
+  }
+}
