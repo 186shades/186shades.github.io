@@ -241,18 +241,17 @@
 					-ms-flex: 1;
 
 					h3 {
-						font-size: 0.7em;
+						font-size: _font(size-section-header);
 						margin-top: 0.125em;
 					}
 
 					.published {
 						display: block;
 						font-family: _font(family-heading);
-						font-size: 0.6em;
+						font-size: _font(size-small-text);
 						font-weight: _font(weight-heading);
 						letter-spacing: _font(kerning-heading);
 						margin: -0.625em 0 (_size(element-margin) * 0.85) 0;
-						text-transform: uppercase;
 					}
 
 					> :last-child {

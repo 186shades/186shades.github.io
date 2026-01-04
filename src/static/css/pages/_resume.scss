@@ -1,29 +1,22 @@
 /* Resume */
-
 #resume {
-
 	h3 {
-		font-size: 1em;
+		font-size: _font(size-h2);
 	}
-
 	.link-to {
 		position: relative;
 		top: -4.5em;
 	}
-
 	.link-container h4 {
 		text-decoration:none;
 		border-bottom: none;
 		display: inline-flex;
-
 		a {
 				padding: 0 .5em;
 				margin: 0;
 		}
 	}
-
 	.education {
-
 		.title {
 			text-align: center;
 			margin-bottom: 1.2em;
@@ -38,43 +31,35 @@
 			color: #fff;
 			margin-left: 15%;
 			max-width: 85%;
-
 			@media (max-width: 1024px) {
 				margin-left: 10%;
 				max-width: 90%;
 			}
-
 			@media (max-width: 768px) {
 				margin-left: 5%;
 				max-width: 95%;
 			}
-
 			// Reduce MUI Timeline spacing
 			.MuiTimeline-root {
 				padding: 0;
 				margin: 0;
 			}
-
 			.MuiTimelineItem-root {
 				min-height: auto;
 				margin-bottom: 0.3em;
-
 				&:before {
 					flex: 0;
 					padding: 0;
 				}
 			}
-
 			.MuiTimelineContent-root {
+				padding: 0.2em 0.6em;
+				font-size: 1em;
+			}
+			.MuiTimelineOppositeContent-root {
 				padding: 0.2em 0.6em;
 				font-size: 0.95em;
 			}
-
-			.MuiTimelineOppositeContent-root {
-				padding: 0.2em 0.6em;
-				font-size: 0.9em;
-			}
-
 			.MuiTimelineDot-root {
 				margin: 0.2em 0;
 				padding: 0;
@@ -82,35 +67,31 @@
 				height: 6px;
 				box-shadow: none;
 			}
-
 			.MuiTimelineConnector-root {
 				width: 1px;
 				background-color: rgba(160, 160, 160, 0.4);
 			}
 		}
 	}
-
 	.jobs-container {
 		.points {
 			li {
 				margin: 0;
 				padding: 0;
-					font-size: 0.85em;
+				font-size: 0.9em;
+				line-height: 1.6;
 			}
 		}
 	}
-
 	// Layout for skills and courses side by side
 	.skills-courses-container {
 		display: flex;
 		gap: 2em;
 		margin-top: 1.2em;
-
 		@media (max-width: 768px) {
 			flex-direction: column;
 			gap: 1em;
 		}
-
 		> .skills,
 		> .courses {
 			flex: 1;
@@ -118,7 +99,6 @@
 			padding-top: 0;
 		}
 	}
-
 	.courses {
 		padding-top: 1.2em;
 		.title {
@@ -126,28 +106,25 @@
 		}
 		.course-list {
 			text-align: center;
-
 			h4 {
 				white-space: nowrap;
 			}
 		}
 	}
-
 	.skills {
 		margin-top: 1.5em;
 		.title {
 			text-align: center;
 			p {
-				font-size: 0.85em;
+				font-size: 0.9em;
 			}
 		}
 	}
-
 	.summary {
 		margin-bottom: 0.4em;
-		font-size: 0.85em;
+		font-size: 0.9em;
+		line-height: 1.6;
 	}
-
 	.references {
 		margin: 1.5em 0;
 		.title {
@@ -155,65 +132,56 @@
 		}
 	}
 }
-
 .daterange {
 	margin-bottom: 0.15em;
+	font-size: 0.9em;
 }
-
 .degree-container {
 	h4 {
 		font-weight: normal;
 	}
-
 	.degree {
 		margin-bottom: 0.1em;
 		text-transform: none;
 		letter-spacing: 0.16em;
-		font-size: 0.75em;
+		font-size: 0.8em;
 	}
-
 	.school {
 		text-transform: none;
 		padding-top: 0.2em;
 		margin-bottom: 0.8em;
+		font-size: 0.9em;
 	}
 }
-
 .courses .course-number {
 	display: inline;
 }
 .courses .course-name {
 	display: inline;
-	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.65em;
-  font-weight: 400;
-  letter-spacing: 0.25em;
-  line-height: 2.5;
-  margin-top: -1em;
-  text-transform: uppercase;
+	font-family: _font(family-heading);
+	font-size: _font(size-small-text);
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	line-height: 2.5;
+	margin-top: -1em;
 }
-
 .courses ul li{
   display: inline;
 }
-
 .course-dot {
 	display: inline;
 }
-
 .eventTitle {
+	font-size: 14px;
+	font-family: _font(family-heading);
+	line-height: 1.5;
+}
+.eventDescription {
 	font-size: 13px;
 	font-family: _font(family-heading);
-	line-height: 1.4;
-}
-
-.eventDescription {
-	font-size: 12px;
-	font-family: _font(family-heading);
-	line-height: 1.4;
+	line-height: 1.5;
 	margin-top: 0.2em;
 }
-
 .resumeHeading {
 	display: flex;
 	

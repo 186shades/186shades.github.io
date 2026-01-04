@@ -13,10 +13,9 @@
 		@include vendor('justify-content', 'flex-end');
 		border-bottom: 0;
 		font-family: _font(family-heading);
-		font-size: 0.6em;
+		font-size: _font(size-author);
 		font-weight: _font(weight-heading);
 		letter-spacing: _font(kerning-heading);
-		text-transform: uppercase;
 		white-space: nowrap;
 
 		.name {

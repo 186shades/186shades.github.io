@@ -24,15 +24,14 @@
 		cursor: pointer;
 		display: inline-block;
 		font-family: _font(family-heading);
-		font-size: 0.6em;
+		font-size: _font(size-button);
 		font-weight: _font(weight-heading-bold);
 		height: _size(element-height) * 1.75;
 		letter-spacing: _font(kerning-heading);
 		line-height: _size(element-height) * 1.75;
-		padding: 0 2.5em;
+		padding: 0 2.8em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
 
 		&:hover {
@@ -66,12 +65,12 @@
 		}
 
 		&.big {
-			font-size: 0.7em;
-			padding: 0 3em;
+			font-size: _font(size-button-big);
+			padding: 0 3.2em;
 		}
 
 		&.small {
-			font-size: 0.5em;
+			font-size: _font(size-button-small);
 		}
 
 		&.disabled,

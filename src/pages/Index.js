@@ -9,7 +9,7 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2>About me</h2>
+          <h2>About Me</h2>
         </div>
       </header>
       <p>
