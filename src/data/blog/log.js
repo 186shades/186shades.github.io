@@ -12,7 +12,7 @@ const data = [
   {
     title: 'Behavior Trees',
     slug: 'behavior-trees',
-    date: '2026-08-24',
+    date: '2026-08-23',
     // excerpt: 'One-line summary shown in the list and used for search.',
     tags: ['Autonomous Agents', 'AI'],
   },
