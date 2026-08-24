@@ -8,21 +8,21 @@ const routes = [
     label: 'Projects',
     path: '/projects',
   },
-  // {
-  //   label: 'Blog',
-  //   path: '/blog',
-  // },
   {
     label: 'Resume',
     path: '/resume',
   },
   {
-    label: 'Gallery',
-    path: '/gallery',
+    label: 'Blog',
+    path: '/blog',
   },
   {
     label: 'Bookshelf',
     path: '/books',
+  },
+  {
+    label: 'Gallery',
+    path: '/gallery',
   },
 ];
 

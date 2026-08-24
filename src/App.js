@@ -6,6 +6,9 @@ import Index from './pages/Index';
 import NotFound from './pages/NotFound';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
+import BlogHome from './pages/Blog/Home';
+import BlogSection from './pages/Blog/Section';
+import BlogEntry from './pages/Blog/Entry';
 import './static/css/main.scss'; // All of our styles
 
 const { PUBLIC_URL } = process.env;
@@ -15,8 +18,9 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/projects" element={<Projects />} />
-      {/* <Route path="/blog" element={<Blog />} /> */}
-      {/* <Route path="/blog/:slug" element={<BlogPost />} /> */}
+      <Route path="/blog" element={<BlogHome />} />
+      <Route path="/blog/:section" element={<BlogSection />} />
+      <Route path="/blog/:section/:slug" element={<BlogEntry />} />
       <Route path="/books" element={<Books />} />
       <Route path="/resume" element={<Resume />} />
       <Route path="/gallery" element={<Paintings />} />

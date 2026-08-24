@@ -42,6 +42,103 @@
   border-radius: 3px;
   color: #f2849e;
   font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: rgba(242, 132, 158, 0.25);
+  }
+}
+
+// Blog home: section links + recent feed
+.section-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.section-card {
+  flex: 1 1 200px;
+  display: block;
+  padding: 1em 1.2em;
+  border: solid 1px rgba(160, 160, 160, 0.3);
+  border-radius: 4px;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+
+  h3 {
+    margin: 0 0 0.3em;
+    color: #f2849e;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9em;
+    color: rgba(236, 236, 236, 0.75);
+  }
+
+  &:hover {
+    border-color: #f2849e;
+  }
+}
+
+.recent-heading {
+  margin-top: 2em;
+}
+
+.recent-feed {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6em;
+    padding: 0.5em 0;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.15);
+
+    a {
+      flex: 1;
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: #f2849e;
+      }
+    }
+  }
+}
+
+.section-pill {
+  font-size: 0.7em;
+  font-family: _font(family-heading);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #f2849e;
+  white-space: nowrap;
+}
+
+.recent-feed .published {
+  font-size: 0.8em;
+  color: rgba(160, 160, 160, 0.7);
+  white-space: nowrap;
+}
+
+// Log entries: tighter, unpolished density
+.mini-post.log-entry {
+  header {
+    min-height: 0;
+    padding-bottom: 0.6em;
+
+    h3 {
+      font-size: _font(size-mini-post-meta);
+    }
+  }
 }
 
 // Blog post markdown content
