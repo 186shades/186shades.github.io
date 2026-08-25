@@ -24,12 +24,12 @@ const Resume = () => (
         <div className="title">
           <div className="resumeHeading">
             <h2>
-              <a href={`${PUBLIC_URL}/documents/Sharvari_Deshmukh_ML_WI25.pdf`} download="Sharvari_Deshmukh_UCSD_Resume.pdf">
+              <a href={`${PUBLIC_URL}/documents/Sharvari_Deshmukh_SWE_AR.pdf`} download="Sharvari_Deshmukh_SWE_AR.pdf">
                 Resume
               </a>
             </h2>
             {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
-            <a href={`${PUBLIC_URL}/documents/Sharvari_Deshmukh_ML_WI25.pdf`} download="Sharvari_Deshmukh_UCSD_Resume.pdf">
+            <a href={`${PUBLIC_URL}/documents/Sharvari_Deshmukh_SWE_AR.pdf`} download="Sharvari_Deshmukh_SWE_AR.pdf">
               <FontAwesomeIcon className="resume-icon" color="#ff5353" size="xl" icon={faFilePdf} />
             </a>
           </div>
